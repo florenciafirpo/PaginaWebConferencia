@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
               <ul class="navbar-nav" id="expandir">
                 <li class="nav-item" id="li">
-                  <a class="nav-link active" href="#">La conferencia</a>
+                  <a class="nav-link active" href="#seccion2">La conferencia</a>
                 </li>
                 <li class="nav-item" id="li">
-                  <a class="nav-link" href="#">Los oradores</a>
+                  <a class="nav-link" href="#seccionoradores">Los oradores</a>
                 </li>
                 <li class="nav-item" id="li">
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                  <a class="nav-link" href="#seccionlugaryfecha">El lugar y la fecha</a>
                 </li>
                 <li class="nav-item" id="li">
-                  <a class="nav-link" href="#">Conviértete en orador</a>
+                  <a class="nav-link" href="#seccionconvierteteenorador">Conviértete en orador</a>
                 </li>
                 <li class="nav-item" id="li">
                   <a class="nav-link nav-link-green" href="#">Comprar tickets</a>
@@ -48,7 +48,8 @@
           <div class="row overlay">
             <div class="col"></div>
             <div class="col margin-padding">
-              <h2 class="">Conf Bs As</h2>
+              <h2 class="" id="seccion2">Conf Bs As</h2>
+              
               <p class="text-size">
   
                 Bs As llega por primera vez a Argentina. Un evento para compartir
@@ -58,7 +59,8 @@
                 oradores de primer nivel que tenemos para ti. Te esperamos!
   
               </p>
-              <button class="btn btn-outline">Quiero ser orador</button>
+              <!--no funciona el link del boton , en el nav si-->
+              <button class="btn btn-outline" href="#seccionoradores" >Quiero ser orador</button>
               <button class="btn btn-tickets">Comprar tickets</button>
             </div>
           </div>
@@ -68,7 +70,7 @@
         <div class="container text-center">
           <div class="container-fluid">
             <p class="m-0 p-0">Conoce a los</p>
-            <h2 class="mb-4 text-uppercase p-0">Oradores</h2>
+            <h2 class="mb-4 text-uppercase p-0" id="seccionoradores">Oradores</h2>
           </div>
         </div>
         <div class="container">
@@ -122,7 +124,7 @@
               <img src="./Assets/honolulu.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 bg-dark p-0 text-white">
-              <div class="p-2">
+              <div class="p-2" id="seccionlugaryfecha">
                 <h4>Bs As - Octubre</h4>
                 <p class="text-small">Buenos aires es la provincia y localidad mas grande del estado de Argentina, en los
                   Estados Unidos.
@@ -139,7 +141,7 @@
       </section>
       <section class="" id="section-forms">
         <div class="container text-center">
-          <div class="container-fluid">
+          <div class="container-fluid" id="seccionconvierteteenorador">
             <p class="mt-2 mb-0 p-0">Convertite en un</p>
             <h2 class="mb-2 text-uppercase p-0">Orador</h2>
             <p class="mt-2 p-0">Anótate como orador para dar una <span class="dotted-underline">charla ignite</span> . Cuéntanos de qué quieres hablar!</p>
