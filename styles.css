@@ -1,41 +1,31 @@
-.text-size{
-    font-size: 18px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+  font-size: 18px;;
+}
 
-  .bg-img {
+.bg-img {
     background-image: url("./Assets/ba1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     color: #fff;
-    margin: 0;
-    padding: 0;
     text-align: right;
   }
-  * , html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .nav-link{
+.nav-link{
     font-size: 18px;
     color: #fff;
+    color:rgb(35, 151, 60);
   }
-  .nav-link-green {
-    color:rgb(41,167,68);
-  }
-  .margin-padding {
+
+.margin1{
     padding: 200px 160px;
-  }
-  
-  .text-size{
-    font-size: 18px;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
   
   
   .btn-outline {
