@@ -5,8 +5,7 @@
 
 .bg-img {
     background-image: url("./Assets/ba1.jpg");
-    background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     color: #fff;
     text-align: right;
