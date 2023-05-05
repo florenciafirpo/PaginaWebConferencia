@@ -1,8 +1,6 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
-  font-size: 18px;;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 .bg-img {
@@ -12,64 +10,58 @@
     background-repeat: no-repeat;
     color: #fff;
     text-align: right;
-  }
+}
 .nav-link{
-    font-size: 18px;
     color: #fff;
     color:rgb(35, 151, 60);
-  }
+}
 
 .margin1{
     padding: 200px 160px;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(10, 9, 9, 0.5);
 }
   
   
-  .btn-outline {
+.btn-outline {
     color: white;
     border: white 1px solid;
-  }
-  .btn-tickets{
-    background-color: rgb(41,167,68);
-  }
-  
-  .right {
-    float: right;
-    height: inherit;
-  }
-  
-  .skill {
+}
+
+.btn-tickets{
+    background-color: rgb(35, 151, 60);
+}
+
+.Sk {
     font-size: 12px;
     font-weight: 700;
     padding: 1px 8px;
     color: white;
     border-radius: 5px;
     text-decoration: none;
-  }
-  .skill:hover {
+}
+  .Sk:hover {
     color: black;
-    cursor: none;
-  }
+}
   
-  .javascript {
+.javascript {
     background-color: yellow;
     color: black;
-  }
-  .javascript:hover {
+}
+.javascript:hover {
     color: white;
-  }
+}
   
-  .react {
-    background-color: rgb(1, 204, 235);
-  }
-  .startup {
+.react {
+    background-color: rgb(4, 214, 246);
+}
+.startup {
     background-color: rgba(255, 0, 0, 0.9);
-  }
+}
   
-  .bussines {
+  .bussiness {
     background-color: rgba(0, 0, 0, 0.4);
   }
   
@@ -78,23 +70,24 @@
   }
   
   .card-cont {
-    padding: 0 10%;
+    padding: 1 10px;
   }
   
-  .dotted-underline {
+.dotted-underline {
     text-decoration: underline dotted;
-  }
+}
   
-  .btn-success{
+.btn-success{
     height: 50px;
-    background-color: rgb(150, 201, 62);
-  }
-  .footer{
+    background-color: rgb(35, 151, 60);
+}
+
+.footer{
     margin-top: 1vh;
     align-items: center;
     padding: 2Vh 15vh;
     background-color: rgba(30,81,112,255);
-  }
+}
   
   .btn-footer{
     font-size: 16px;
