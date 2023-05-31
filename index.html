@@ -61,7 +61,12 @@
               </p>
               <!--no funciona el link del boton , en el nav si-->
               <button class="btn btn-outline" href="#seccionoradores" >Quiero ser orador</button>
-              <button class="btn btn-tickets" onclick="window.location.href='https://www.google.com/'">Comprar tickets</button>
+              <button class="btn btn-tickets" onclick="redireccionar()" href="comprar.html">Comprar tickets</button>
+              <script>
+                function redireccionar() {
+                  window.location.href = "comprar.html";
+                }
+              </script>
             </div>
           </div>
         </div>
