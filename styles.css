@@ -117,3 +117,7 @@
   .venta {
     text-align: center!important;
   }
+  .cantidad1, .categoria1{
+    text-align: left!important;
+    margin-left: 10px;
+  }
