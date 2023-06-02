@@ -95,7 +95,7 @@
     height: 80px;
     word-wrap: break-word;
   }
-
+/* comprarTickets.html */
   .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +112,8 @@
     text-align: center!important;
     margin: 10px;
     padding: 30px;
-
   }
-  
+
+  .venta {
+    text-align: center!important;
+  }
