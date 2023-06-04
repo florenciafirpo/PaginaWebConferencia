@@ -7,6 +7,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles.css" />
     <title>Integrador</title>
+    <script src="script.js"></script>
 <body>
     <header>
     <nav class="navbar navbar-expand-sm navbar-dark border-bottom bg-dark">
@@ -98,13 +99,13 @@
 
         <div class="row">
             <div class="col-lg-6">
-                <p class="form-label cantidad1">Cantidad</p>
+                <p class="form-label">Cantidad</p>
                 <input type="number" name="cantidad" id="cantidad" class="form-control" placeholder="cantidad">
             </div>
 
             <div class="col-lg-6">
-                <p class="form-label categoria1">Categoría</p>
-                <select name="categoria" id="categoria" class="form-select">
+                <p class="form-label">Categoría</p>
+                <select name="categoria" id="categoria" class="form-select"  onchange="personas()">
                     <option value="1">Estudiante</option>
                     <option value="2">Trainee</option>
                     <option value="3">Junior</option>
@@ -112,15 +113,17 @@
             </div>
         </div>
         
-        <div class="alert alert-primary my-4" id="pagar" role="alert">
-            <span id="totalAPagar"></span>  Total a pagar: $
-        </div>
+        <div class="alert alert-primary my-4" id="totalAPagar" role="alert">
+        Total a pagar: $     </div>
+
+        
+
         <div class="row">
             <div class="col-lg-6">
                 <button class="w-100 btn btn-lg btn-success boton mt-2" type="reset">Borrar</button>
             </div>
             <div class="col-lg-6">
-                <button class="w-100 btn btn-lg btn-success boton mt-2" type="button" onclick="calcularPrecio()">Resumen</button>
+                <button class="w-100 btn btn-lg btn-success boton mt-2" type="button" id="totalAPagar" onclick="calcularPrecio()">Resumen</button>
             </div>
         </div>
     </form>
@@ -128,7 +131,19 @@
 </div>
 
 </main>
-
+<footer class="footer py-3">
+    <div class="container text-center">
+        <ul class="nav d-flex justify-content-around row">
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Preguntas Frecuentes</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Contáctanos</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Prensa</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Conferencia</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Términos y Condiciones</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Privacidad</button></li>
+          <li class="nav-item col-md"><button class="btn btn-footer" href="#">Estudiantes</button></li>
+        </ul>
+    </div>  
+  </footer>
 
 
 </body>
